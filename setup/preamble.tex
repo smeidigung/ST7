@@ -137,6 +137,14 @@
 % page number of the last page
 \usepackage{lastpage}
 \usepackage{tabto}
+\usepackage{float} %Tillader at force position af tables og figurer ved at skrive [H]\part{title}
+%****************** Table ***************************************
+\usepackage{colortbl}%
+\newcommand{\myrowcolour}{\rowcolor[gray]{0.925}} % let's one control the colour of a row in a table
+\setlength{\aboverulesep}{0pt} % makes sure the toprule doesn't display "air" inbetween that and the row colour.
+\setlength{\belowrulesep}{0pt}
+\setlength{\extrarowheight}{.75ex}
+%************************** Table of contents size *******************************
 % Add todo notes in the margin of the document
 \usepackage[
 %  disable, %turn off todonotes
